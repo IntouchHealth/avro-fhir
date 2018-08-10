@@ -1,7 +1,7 @@
 {
   "type": "record",
   "name": "Binary",
-  "namespace": "com.google.fhir.stu3.proto.Resources$",
+  "namespace": "com.intouchhealth.fhir.stu3.proto.Resources$",
   "fields": [
     {
       "name": "id",
@@ -10,7 +10,7 @@
         {
           "type": "record",
           "name": "Id",
-          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
           "fields": [
             {
               "name": "value",
@@ -103,7 +103,7 @@
                                 {
                                   "type": "record",
                                   "name": "Value",
-                                  "namespace": "com.google.fhir.stu3.proto.Datatypes$Extension$",
+                                  "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Extension$",
                                   "fields": [
                                     {
                                       "name": "base64_binary",
@@ -112,7 +112,7 @@
                                         {
                                           "type": "record",
                                           "name": "Base64Binary",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -146,7 +146,7 @@
                                         {
                                           "type": "record",
                                           "name": "Boolean",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -180,7 +180,7 @@
                                         {
                                           "type": "record",
                                           "name": "Code",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -217,7 +217,7 @@
                                         {
                                           "type": "record",
                                           "name": "Date",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value_us",
@@ -237,7 +237,7 @@
                                               "type": {
                                                 "type": "enum",
                                                 "name": "Precision",
-                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$Date$",
+                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Date$",
                                                 "symbols": [
                                                   "PRECISION_UNSPECIFIED",
                                                   "YEAR",
@@ -274,7 +274,7 @@
                                         {
                                           "type": "record",
                                           "name": "DateTime",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value_us",
@@ -294,7 +294,7 @@
                                               "type": {
                                                 "type": "enum",
                                                 "name": "Precision",
-                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$DateTime$",
+                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$DateTime$",
                                                 "symbols": [
                                                   "PRECISION_UNSPECIFIED",
                                                   "YEAR",
@@ -334,7 +334,7 @@
                                         {
                                           "type": "record",
                                           "name": "Decimal",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -368,7 +368,7 @@
                                       "name": "id",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Id"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Id"
                                       ],
                                       "default": null
                                     },
@@ -379,7 +379,7 @@
                                         {
                                           "type": "record",
                                           "name": "Instant",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value_us",
@@ -399,7 +399,7 @@
                                               "type": {
                                                 "type": "enum",
                                                 "name": "Precision",
-                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$Instant$",
+                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Instant$",
                                                 "symbols": [
                                                   "PRECISION_UNSPECIFIED",
                                                   "SECOND",
@@ -436,7 +436,7 @@
                                         {
                                           "type": "record",
                                           "name": "Integer",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -470,7 +470,7 @@
                                         {
                                           "type": "record",
                                           "name": "Markdown",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -507,7 +507,7 @@
                                         {
                                           "type": "record",
                                           "name": "Oid",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -544,7 +544,7 @@
                                         {
                                           "type": "record",
                                           "name": "PositiveInt",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -575,7 +575,7 @@
                                       "name": "string_value",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.String"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.String"
                                       ],
                                       "default": null
                                     },
@@ -586,7 +586,7 @@
                                         {
                                           "type": "record",
                                           "name": "Time",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value_us",
@@ -598,7 +598,7 @@
                                               "type": {
                                                 "type": "enum",
                                                 "name": "Precision",
-                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$Time$",
+                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Time$",
                                                 "symbols": [
                                                   "PRECISION_UNSPECIFIED",
                                                   "SECOND",
@@ -635,7 +635,7 @@
                                         {
                                           "type": "record",
                                           "name": "UnsignedInt",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "value",
@@ -666,7 +666,7 @@
                                       "name": "uri",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Uri"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Uri"
                                       ],
                                       "default": null
                                     },
@@ -677,7 +677,7 @@
                                         {
                                           "type": "record",
                                           "name": "Address",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -707,7 +707,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$AddressUseCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$AddressUseCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "HOME",
@@ -751,7 +751,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$AddressTypeCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$AddressTypeCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "POSTAL",
@@ -892,7 +892,7 @@
                                         {
                                           "type": "record",
                                           "name": "Age",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -930,7 +930,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$QuantityComparatorCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$QuantityComparatorCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "LT",
@@ -997,7 +997,7 @@
                                         {
                                           "type": "record",
                                           "name": "Annotation",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -1021,7 +1021,7 @@
                                                 {
                                                   "type": "record",
                                                   "name": "Author",
-                                                  "namespace": "com.google.fhir.stu3.proto.Datatypes$Annotation$",
+                                                  "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Annotation$",
                                                   "fields": [
                                                     {
                                                       "name": "reference",
@@ -1030,7 +1030,7 @@
                                                         {
                                                           "type": "record",
                                                           "name": "Reference",
-                                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                                           "fields": [
                                                             {
                                                               "name": "id",
@@ -2071,7 +2071,7 @@
                                                                               "type": {
                                                                                 "type": "enum",
                                                                                 "name": "Value",
-                                                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$IdentifierUseCode$",
+                                                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$IdentifierUseCode$",
                                                                                 "symbols": [
                                                                                   "INVALID_UNINITIALIZED",
                                                                                   "USUAL",
@@ -2259,7 +2259,7 @@
                                                       "name": "string_value",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.String"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.String"
                                                       ],
                                                       "default": null
                                                     }
@@ -2296,7 +2296,7 @@
                                         {
                                           "type": "record",
                                           "name": "Attachment",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2442,7 +2442,7 @@
                                       "name": "codeable_concept",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.CodeableConcept"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.CodeableConcept"
                                       ],
                                       "default": null
                                     },
@@ -2450,7 +2450,7 @@
                                       "name": "coding",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Coding"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Coding"
                                       ],
                                       "default": null
                                     },
@@ -2461,7 +2461,7 @@
                                         {
                                           "type": "record",
                                           "name": "ContactPoint",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2491,7 +2491,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$ContactPointSystemCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$ContactPointSystemCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "PHONE",
@@ -2546,7 +2546,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$ContactPointUseCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$ContactPointUseCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "HOME",
@@ -2606,7 +2606,7 @@
                                         {
                                           "type": "record",
                                           "name": "Count",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2675,7 +2675,7 @@
                                         {
                                           "type": "record",
                                           "name": "Distance",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2744,7 +2744,7 @@
                                         {
                                           "type": "record",
                                           "name": "Duration",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2813,7 +2813,7 @@
                                         {
                                           "type": "record",
                                           "name": "HumanName",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -2843,7 +2843,7 @@
                                                       "type": {
                                                         "type": "enum",
                                                         "name": "Value",
-                                                        "namespace": "com.google.fhir.stu3.proto.Datatypes$NameUseCode$",
+                                                        "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$NameUseCode$",
                                                         "symbols": [
                                                           "INVALID_UNINITIALIZED",
                                                           "USUAL",
@@ -2931,7 +2931,7 @@
                                       "name": "identifier",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Identifier"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Identifier"
                                       ],
                                       "default": null
                                     },
@@ -2942,7 +2942,7 @@
                                         {
                                           "type": "record",
                                           "name": "Money",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3008,7 +3008,7 @@
                                       "name": "period",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Period"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Period"
                                       ],
                                       "default": null
                                     },
@@ -3019,7 +3019,7 @@
                                         {
                                           "type": "record",
                                           "name": "Quantity",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3088,7 +3088,7 @@
                                         {
                                           "type": "record",
                                           "name": "Range",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3133,7 +3133,7 @@
                                         {
                                           "type": "record",
                                           "name": "Ratio",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3175,7 +3175,7 @@
                                       "name": "reference",
                                       "type": [
                                         "null",
-                                        "com.google.fhir.stu3.proto.Datatypes$.Reference"
+                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Reference"
                                       ],
                                       "default": null
                                     },
@@ -3186,7 +3186,7 @@
                                         {
                                           "type": "record",
                                           "name": "SampledData",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3271,7 +3271,7 @@
                                         {
                                           "type": "record",
                                           "name": "Signature",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3310,13 +3310,13 @@
                                                 {
                                                   "type": "record",
                                                   "name": "Who",
-                                                  "namespace": "com.google.fhir.stu3.proto.Datatypes$Signature$",
+                                                  "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Signature$",
                                                   "fields": [
                                                     {
                                                       "name": "uri",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Uri"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Uri"
                                                       ],
                                                       "default": null
                                                     },
@@ -3324,7 +3324,7 @@
                                                       "name": "reference",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Reference"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Reference"
                                                       ],
                                                       "default": null
                                                     }
@@ -3340,13 +3340,13 @@
                                                 {
                                                   "type": "record",
                                                   "name": "OnBehalfOf",
-                                                  "namespace": "com.google.fhir.stu3.proto.Datatypes$Signature$",
+                                                  "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Signature$",
                                                   "fields": [
                                                     {
                                                       "name": "uri",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Uri"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Uri"
                                                       ],
                                                       "default": null
                                                     },
@@ -3354,7 +3354,7 @@
                                                       "name": "reference",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Reference"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Reference"
                                                       ],
                                                       "default": null
                                                     }
@@ -3391,7 +3391,7 @@
                                         {
                                           "type": "record",
                                           "name": "Timing",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3422,13 +3422,13 @@
                                                 {
                                                   "type": "record",
                                                   "name": "Repeat",
-                                                  "namespace": "com.google.fhir.stu3.proto.Datatypes$Timing$",
+                                                  "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Timing$",
                                                   "fields": [
                                                     {
                                                       "name": "id",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.String"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.String"
                                                       ],
                                                       "default": null
                                                     },
@@ -3436,7 +3436,7 @@
                                                       "name": "extension",
                                                       "type": {
                                                         "type": "array",
-                                                        "items": "com.google.fhir.stu3.proto.Datatypes$.Extension"
+                                                        "items": "com.intouchhealth.fhir.stu3.proto.Datatypes$.Extension"
                                                       }
                                                     },
                                                     {
@@ -3446,13 +3446,13 @@
                                                         {
                                                           "type": "record",
                                                           "name": "Bounds",
-                                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$Timing$Repeat$",
+                                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$Timing$Repeat$",
                                                           "fields": [
                                                             {
                                                               "name": "duration",
                                                               "type": [
                                                                 "null",
-                                                                "com.google.fhir.stu3.proto.Datatypes$.Duration"
+                                                                "com.intouchhealth.fhir.stu3.proto.Datatypes$.Duration"
                                                               ],
                                                               "default": null
                                                             },
@@ -3460,7 +3460,7 @@
                                                               "name": "range",
                                                               "type": [
                                                                 "null",
-                                                                "com.google.fhir.stu3.proto.Datatypes$.Range"
+                                                                "com.intouchhealth.fhir.stu3.proto.Datatypes$.Range"
                                                               ],
                                                               "default": null
                                                             },
@@ -3468,7 +3468,7 @@
                                                               "name": "period",
                                                               "type": [
                                                                 "null",
-                                                                "com.google.fhir.stu3.proto.Datatypes$.Period"
+                                                                "com.intouchhealth.fhir.stu3.proto.Datatypes$.Period"
                                                               ],
                                                               "default": null
                                                             }
@@ -3481,7 +3481,7 @@
                                                       "name": "count",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Integer"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Integer"
                                                       ],
                                                       "default": null
                                                     },
@@ -3489,7 +3489,7 @@
                                                       "name": "count_max",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Integer"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Integer"
                                                       ],
                                                       "default": null
                                                     },
@@ -3497,7 +3497,7 @@
                                                       "name": "duration",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Decimal"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Decimal"
                                                       ],
                                                       "default": null
                                                     },
@@ -3505,7 +3505,7 @@
                                                       "name": "duration_max",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Decimal"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Decimal"
                                                       ],
                                                       "default": null
                                                     },
@@ -3516,14 +3516,14 @@
                                                         {
                                                           "type": "record",
                                                           "name": "UnitsOfTimeCode",
-                                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                                           "fields": [
                                                             {
                                                               "name": "value",
                                                               "type": {
                                                                 "type": "enum",
                                                                 "name": "Value",
-                                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$UnitsOfTimeCode$",
+                                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$UnitsOfTimeCode$",
                                                                 "symbols": [
                                                                   "INVALID_UNINITIALIZED",
                                                                   "S",
@@ -3561,7 +3561,7 @@
                                                       "name": "frequency",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Integer"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Integer"
                                                       ],
                                                       "default": null
                                                     },
@@ -3569,7 +3569,7 @@
                                                       "name": "frequency_max",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Integer"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Integer"
                                                       ],
                                                       "default": null
                                                     },
@@ -3577,7 +3577,7 @@
                                                       "name": "period",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Decimal"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Decimal"
                                                       ],
                                                       "default": null
                                                     },
@@ -3585,7 +3585,7 @@
                                                       "name": "period_max",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.Decimal"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Decimal"
                                                       ],
                                                       "default": null
                                                     },
@@ -3593,7 +3593,7 @@
                                                       "name": "period_unit",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.UnitsOfTimeCode"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.UnitsOfTimeCode"
                                                       ],
                                                       "default": null
                                                     },
@@ -3604,14 +3604,14 @@
                                                         "items": {
                                                           "type": "record",
                                                           "name": "DaysOfWeekCode",
-                                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                                           "fields": [
                                                             {
                                                               "name": "value",
                                                               "type": {
                                                                 "type": "enum",
                                                                 "name": "Value",
-                                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$DaysOfWeekCode$",
+                                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$DaysOfWeekCode$",
                                                                 "symbols": [
                                                                   "INVALID_UNINITIALIZED",
                                                                   "MON",
@@ -3648,7 +3648,7 @@
                                                       "name": "time_of_day",
                                                       "type": {
                                                         "type": "array",
-                                                        "items": "com.google.fhir.stu3.proto.Datatypes$.Time"
+                                                        "items": "com.intouchhealth.fhir.stu3.proto.Datatypes$.Time"
                                                       }
                                                     },
                                                     {
@@ -3658,14 +3658,14 @@
                                                         "items": {
                                                           "type": "record",
                                                           "name": "EventTimingCode",
-                                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                                           "fields": [
                                                             {
                                                               "name": "value",
                                                               "type": {
                                                                 "type": "enum",
                                                                 "name": "Value",
-                                                                "namespace": "com.google.fhir.stu3.proto.Datatypes$EventTimingCode$",
+                                                                "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$EventTimingCode$",
                                                                 "symbols": [
                                                                   "INVALID_UNINITIALIZED",
                                                                   "MORN",
@@ -3714,7 +3714,7 @@
                                                       "name": "offset",
                                                       "type": [
                                                         "null",
-                                                        "com.google.fhir.stu3.proto.Datatypes$.UnsignedInt"
+                                                        "com.intouchhealth.fhir.stu3.proto.Datatypes$.UnsignedInt"
                                                       ],
                                                       "default": null
                                                     }
@@ -3743,7 +3743,7 @@
                                         {
                                           "type": "record",
                                           "name": "Meta",
-                                          "namespace": "com.google.fhir.stu3.proto.Datatypes$",
+                                          "namespace": "com.intouchhealth.fhir.stu3.proto.Datatypes$",
                                           "fields": [
                                             {
                                               "name": "id",
@@ -3839,7 +3839,7 @@
       "name": "meta",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.Meta"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Meta"
       ],
       "default": null
     },
@@ -3847,7 +3847,7 @@
       "name": "implicit_rules",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.Uri"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Uri"
       ],
       "default": null
     },
@@ -3855,7 +3855,7 @@
       "name": "language",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.LanguageCode"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.LanguageCode"
       ],
       "default": null
     },
@@ -3863,7 +3863,7 @@
       "name": "content_type",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.MimeTypeCode"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.MimeTypeCode"
       ],
       "default": null
     },
@@ -3871,7 +3871,7 @@
       "name": "security_context",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.Reference"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Reference"
       ],
       "default": null
     },
@@ -3879,7 +3879,7 @@
       "name": "content",
       "type": [
         "null",
-        "com.google.fhir.stu3.proto.Datatypes$.Base64Binary"
+        "com.intouchhealth.fhir.stu3.proto.Datatypes$.Base64Binary"
       ],
       "default": null
     }
