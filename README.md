@@ -19,6 +19,6 @@ exchange.
 Just grab schemas from the schemas/ directory and use them to serialize your
 data with Avro.
 
-Don't know about Avro? https://avro.apache.org
-Don't know about FHIR? https://www.hl7.org/fhir/overview.html
-Other questions? bwang@intouchhealth.com
+- Don't know about Avro? https://avro.apache.org
+- Don't know about FHIR? https://www.hl7.org/fhir/overview.html
+- Other questions? bwang@intouchhealth.com
