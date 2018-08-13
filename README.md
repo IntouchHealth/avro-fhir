@@ -12,11 +12,12 @@ Avro and FHIR are both
 - widely adopted (and increasingly so)
 - language/platform neutral
 - developer/human friendly
+
 These attributes make them well suited to modern challenges of healthcare data
 exchange.
 
 ## To use this project
-Just grab schemas from the schemas/ directory and use them to serialize your
+Just grab schemas from the schemas directory and use them to serialize your
 data with Avro.
 
 - Don't know about Avro? https://avro.apache.org
