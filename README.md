@@ -8,10 +8,10 @@ project is to help promote the adoption of open standards by assembling a
 collection of Avro schemas for FHIR resources.
 
 Avro and FHIR are both
-- open source
-- widely adopted (and increasingly so)
-- language/platform neutral
-- developer/human friendly
+- Open source
+- Widely adopted (and increasingly so)
+- Language/platform neutral
+- Developer/human friendly
 
 These attributes make them well suited to modern challenges of healthcare data
 exchange.
